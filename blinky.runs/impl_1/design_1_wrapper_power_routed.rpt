@@ -1,8 +1,8 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-| Date             : Tue Nov 20 13:43:27 2018
-| Host             : Lewis running 64-bit major release  (build 9200)
+| Date             : Mon Nov 26 17:40:51 2018
+| Host             : UL-63 running 64-bit Service Pack 1  (build 7601)
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 | Design           : design_1_wrapper
 | Device           : xc7z010clg400-1
@@ -54,12 +54,12 @@ Table of Contents
 +-------------------------+-----------+----------+-----------+-----------------+
 | Clocks                  |     0.002 |        3 |       --- |             --- |
 | Slice Logic             |    <0.001 |     1417 |       --- |             --- |
-|   LUT as Logic          |    <0.001 |      381 |     17600 |            2.16 |
+|   LUT as Logic          |    <0.001 |      398 |     17600 |            2.26 |
 |   Register              |    <0.001 |      641 |     35200 |            1.82 |
 |   CARRY4                |    <0.001 |       18 |      4400 |            0.41 |
 |   LUT as Shift Register |    <0.001 |       60 |      6000 |            1.00 |
 |   Others                |     0.000 |      196 |       --- |             --- |
-| Signals                 |    <0.001 |     1033 |       --- |             --- |
+| Signals                 |    <0.001 |     1034 |       --- |             --- |
 | I/O                     |    <0.001 |        8 |       100 |            8.00 |
 | PS7                     |     1.399 |        1 |       --- |             --- |
 | Static Power            |     0.120 |          |           |                 |
@@ -161,11 +161,11 @@ Table of Contents
 |           Dual.INPUT_DOUBLE_REGS5                |    <0.001 |
 |     processing_system7_0                         |     1.399 |
 |       inst                                       |     1.399 |
-|     ps7_0_axi_periph                             |     0.003 |
-|       s00_couplers                               |     0.003 |
-|         auto_pc                                  |     0.003 |
-|           inst                                   |     0.003 |
-|             gen_axilite.gen_b2s_conv.axilite_b2s |     0.003 |
+|     ps7_0_axi_periph                             |     0.002 |
+|       s00_couplers                               |     0.002 |
+|         auto_pc                                  |     0.002 |
+|           inst                                   |     0.002 |
+|             gen_axilite.gen_b2s_conv.axilite_b2s |     0.002 |
 |               RD.ar_channel_0                    |    <0.001 |
 |                 ar_cmd_fsm_0                     |    <0.001 |
 |                 cmd_translator_0                 |    <0.001 |

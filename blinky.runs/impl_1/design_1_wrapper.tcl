@@ -60,6 +60,7 @@ proc step_failed { step } {
   close $ch
 }
 
+set_msg_config -id {Common 17-41} -limit 10000000
 
 start_step init_design
 set ACTIVE_STEP init_design
@@ -69,15 +70,15 @@ set rc [catch {
   set_property board_part digilentinc.com:zybo-z7-10:part0:1.0 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir C:/Users/Lewis/Documents/vivado/blinky/blinky.cache/wt [current_project]
-  set_property parent.project_path C:/Users/Lewis/Documents/vivado/blinky/blinky.xpr [current_project]
-  set_property ip_output_repo C:/Users/Lewis/Documents/vivado/blinky/blinky.cache/ip [current_project]
+  set_property webtalk.parent_dir C:/Users/ulab/Documents/GitHub/LEDTest_using_ZyboZ7_with_Zynq7-/blinky.cache/wt [current_project]
+  set_property parent.project_path C:/Users/ulab/Documents/GitHub/LEDTest_using_ZyboZ7_with_Zynq7-/blinky.xpr [current_project]
+  set_property ip_output_repo C:/Users/ulab/Documents/GitHub/LEDTest_using_ZyboZ7_with_Zynq7-/blinky.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
-  add_files -quiet C:/Users/Lewis/Documents/vivado/blinky/blinky.runs/synth_1/design_1_wrapper.dcp
+  add_files -quiet C:/Users/ulab/Documents/GitHub/LEDTest_using_ZyboZ7_with_Zynq7-/blinky.runs/synth_1/design_1_wrapper.dcp
   set_msg_config -source 4 -id {BD 41-1661} -limit 0
   set_param project.isImplRun true
-  add_files C:/Users/Lewis/Documents/vivado/blinky/blinky.srcs/sources_1/bd/design_1/design_1.bd
+  add_files C:/Users/ulab/Documents/GitHub/LEDTest_using_ZyboZ7_with_Zynq7-/blinky.srcs/sources_1/bd/design_1/design_1.bd
   set_param project.isImplRun false
   set_param project.isImplRun true
   link_design -top design_1_wrapper -part xc7z010clg400-1

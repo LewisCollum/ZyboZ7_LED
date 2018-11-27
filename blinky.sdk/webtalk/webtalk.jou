@@ -2,11 +2,11 @@
 # Webtalk v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # 
-# Start of session at: Tue Nov 20 16:37:44 2018
-# Process ID: 14032
-# Current directory: C:/Users/Lewis/Documents/vivado/blinky/blinky.sdk/webtalk
+# Start of session at: Tue Nov 27 04:25:55 2018
+# Process ID: 4340
+# Current directory: C:/Users/ulab/Documents/GitHub/LEDTest_using_ZyboZ7_with_Zynq7-/blinky.sdk/webtalk
 # Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
-# Log file: C:/Users/Lewis/Documents/vivado/blinky/blinky.sdk/webtalk/webtalk.log
-# Journal file: C:/Users/Lewis/Documents/vivado/blinky/blinky.sdk/webtalk\webtalk.jou
+# Log file: C:/Users/ulab/Documents/GitHub/LEDTest_using_ZyboZ7_with_Zynq7-/blinky.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/ulab/Documents/GitHub/LEDTest_using_ZyboZ7_with_Zynq7-/blinky.sdk/webtalk\webtalk.jou
 #-----------------------------------------------------------
 source sdk_webtalk.tcl
